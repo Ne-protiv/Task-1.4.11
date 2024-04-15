@@ -9,9 +9,8 @@ public class Task {
     }
 
     public static boolean isWeekend(String weekDay) {
-        if (weekDay.equals("Saturday") || weekDay.equals("Sunday")) {
+        if (weekDay.equals("Saturday") || weekDay.equals("Sunday"))
             return true;
-        }
-        return false;
+        else return false;
     }
 }
